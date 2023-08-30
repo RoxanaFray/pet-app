@@ -5,7 +5,7 @@ import java.util.Date
 data class Pet(
     var name: String,
     var birthDate: Date,
-    var bodyWeight: Float,
+    var bodyWeight: Double,
     var species: String,
     var breed: String,
     var allergens: MutableList<String>,
